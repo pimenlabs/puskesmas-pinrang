@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^artikel-(.*)\.html$ berita.php?id=$1 [L]
+RewriteRule ^rumah.html$ index.php [L]
+Options All -Indexes
+</IfModule>
